@@ -13,7 +13,7 @@ describe('Photos', function(){
 
 
     it('should list ALL photos on / GET', function(done){
-        this.timeout(100000);
+        this.timeout(300000);
         chai.request(server)
         .get('/')
         .end(function(err,res){
