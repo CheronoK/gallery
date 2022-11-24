@@ -27,7 +27,7 @@ mongoose.connect(config.mongoURI[environement],{ useNewUrlParser: true , useUnif
 // })
 
 
-console.log(config.mongoURI[environement])
+
 
 // View Engine
 app.set('view engine', 'ejs');
